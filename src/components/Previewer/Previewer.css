@@ -1,0 +1,49 @@
+#previewer-container {
+    margin-top: 100px;
+    padding: 30px;
+    max-width: 100vw;
+}
+
+#preview-header {
+    text-align: center;
+    position: relative;
+    z-index: 20;
+    width: 200px;
+    height: 10px;
+    display: block;
+    margin: auto;
+    margin-bottom: -2px;
+    border: 2px solid #a69fc95e;
+    border-bottom: transparent;
+    border-radius: 30px 30px 0 0;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    resize: none;
+    background-color: #b9b9f7;
+    color: #45457e;
+}
+
+#preview {
+    position: relative;
+    z-index: 0;
+    width: 400px;
+    min-width: 400px;
+    display: block;
+    padding: 20px;
+    margin: auto;
+    border: 2px solid #a69fc95e;
+    border-bottom: transparent;
+    border-radius: 30px;
+    min-height: 40px;
+    max-height: 400px;
+    resize: vertical;
+    background: linear-gradient(to bottom, #b9b9f7, lavender);
+    overflow-y: auto;
+    overflow-x: hidden;
+    resize: horizontal;
+}
+
+#preview:focus {
+    border: transparent;
+}

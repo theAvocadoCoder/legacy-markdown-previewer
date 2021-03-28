@@ -1,0 +1,61 @@
+#editor-container {
+    padding: 30px;
+    max-width: 100vw;
+}
+
+#editor-header {
+    text-align: center;
+    position: relative;
+    z-index: 20;
+    width: 200px;
+    height: 10px;
+    display: block;
+    margin: auto;
+    margin-bottom: -2px;
+    border: 2px solid #a69fc95e;
+    border-bottom: transparent;
+    border-radius: 30px 30px 0 0;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    resize: none;
+    background-color: #b9b9f7;
+    color: #45457e;
+}
+
+#editor {
+    position: relative;
+    z-index: 0;
+    width: 400px;
+    display: block;
+    padding: 20px;
+    margin: auto;
+    border: 2px solid #a69fc95e;
+    border-bottom: transparent;
+    border-radius: 30px;
+    min-height: 40px;
+    max-height: 400px;
+    resize: vertical;
+    background: linear-gradient(to bottom, #b9b9f7, lavender);
+}
+
+#editor:focus {
+    border: transparent;
+}
+
+#clearEditorBtn {
+    width: 100px;
+    height: 30px;
+    display: block;
+    margin: auto;
+    border: 2px solid #a69fc95e;
+    border-top: transparent;
+    border-radius: 15px;
+    background: linear-gradient(to bottom, lavender, #b9b9f7);
+    color: #2f2f64;
+}
+
+#clearEditorBtn:hover, #clearBtn:active {
+    background-color: #a9a9f7;
+    margin-top: 1.5px;
+}
